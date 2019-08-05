@@ -1,0 +1,55 @@
+======= DESCRIÇAO
+    Os modulos na pasta '\scripts' serao importados pelo arquivo 
+geral nomeado incialmente como 'app.py', e serao processados 
+para gerar todas as saidas requeridas pelo 'app.py'.
+    O input sera um arquivo '.txt' que sera lido e transformado para 
+arquivo '.json' para que facilite a leitura nos demais scripts e processos
+    Os modulos teraouma classe que recebe o dicionario do arquivo 'inputs.json'
+e processara em suas funcoes para gerar as saidas
+====== GERAL
+1   OK - Leitura dos inputs
+====== ESTABILIDADE ESTATICA
+2 - E.E. Longitudinal - NELSON
+    OK - Receber inputs
+    OK - Calcular saidas
+    OK - Gerar grafico
+    OK - Gerar arquivo de saidas
+3 - E.E. Lateral - PERKINS
+    OK - Receber inputs
+    OK - Calcular saidas
+    OK - Gerar grafico
+    OK - Gerar arquivo de saidas
+4 - E.E. Lateral - RAYMER
+    OK - Receber inputs
+    OK - Calcular saidas
+    OK - Gerar grafico
+    OK - Gerar arquivo de saidas
+5 - E.E. Direcional - PERKINS
+    OK - Receber inputs
+    OK - Calcular saidas
+    OK - Gerar grafico
+    OK - Gerar arquivo de saidas
+6 - E.E. Direcional -   NELSON
+    OK - Receber inputs
+    OK - Calcular saidas
+    OK - Gerar graficoO
+    OK - Gerar arquivo de saidas
+====== CONTROLE
+7 - Coeficientes de controle
+    OK - Receber inputs
+    - Calcular saidas
+    - Gerar arquivo de saidas
+8 - Deflexao das S.C.
+    OK - Receber inputs
+    - Calcular saidas
+    - Analisar saidas
+    - Gerar grafico de deflexao e anguloDesejado
+    - Gerar arquivo de saidas
+====== DINAMICA
+9 - Coeficientes dinamicos
+    OK - Receber inputs
+    OK - Cacular coeficientes adimensionais e dimensionais
+    OK - Gerar saida
+       - Gerar arquivo de saidas
+10  OK - E.D. Longitudinal
+11  OK - E.D. Lateral

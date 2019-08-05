@@ -1,0 +1,94 @@
+﻿# DADOS DIN�MICOS #
+rho	1.0686
+u_0	15.3100
+m	5.2694
+teta_0	0.0
+Ix	0.0425
+Iy	0.0202
+Iz	0.0540
+
+# COEFICIENTES AERODIN�MICOS #
+## ASA
+C_Law	0.0906
+C_L0w	1.2290
+C_macw	-0.3394
+## EST. VERTICAL
+C_Lavt	0.0800
+## EST. HORIZONTAL
+C_Laht	0.0788
+C_L0ht	0.0000
+C_macht	0.0000
+
+# OUTROS COEFICIENTES E FATORES #
+## ASA
+C_lpsi_gamma_w	0.0
+C_lpsits_w	0.0002
+C_lBw_CL	-0.03
+C_D0	0.023438073
+## EST. VERTICAL ##
+eta_vt	0.9
+## EST. HORIZONTAL ##
+eta_ht	0.9
+## FUSELAGEM ##
+k_n	0.0010
+k_Rl	1.0000
+K_B	0.08
+dCyp_dpsi	0.00165
+
+# �NGULOS #
+## ASA ##
+gamma_w	0.0
+i_w	2.0
+lambda_w	0.0
+lambda2_w	0.7826
+## EST. HORIZONTAL ##
+i_ht	0.0
+
+# GEOM�TRICOS #
+## ASA ##
+S_w	0.3420
+b_w	1.6
+x_AC	0.0670
+MAC_w	0.2147
+AR_w	7.500
+## EST. VERTICAL ##
+z_vt	0.1100
+S_vt	0.0600
+## EST. HORIZONTAL ##
+S_ht	0.0750
+## FUSELAGEM ##
+S_fs	0.0953
+z_w	0.0847
+h14f	0.1350
+h34f	0.0414
+h_medf	0.0882
+w14f	0.0950
+w34f	0.0450
+w_medf	0.0700
+w_maxf	0.0950
+l_fs	0.9427
+## PROPULS�O ##
+D_p	0.31115
+N_p	1
+x_p	0.35074
+## ESTABILIDADE ##
+x_CG	0.0737
+x_ht	0.7628
+x_vt	0.6043
+## SUPERF�CIE DE CONTROLE ##
+S_a	0.0320
+b_a	0.4000
+c_a	0.0800
+b_i_a	0.3200
+b_e_a	0.7200
+S_e	0.0300
+b_e	0.6000
+c_e	0.0500
+S_r	0.0090
+b_r	0.2000
+c_r	0.0450
+## DEFLEXOES ##
+deflexao_a	25
+deflexao_e_+	6	
+deflexao_e_-	-6
+deflexao_r	18
