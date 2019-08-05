@@ -42,7 +42,6 @@ class Aviao():
         #   31%
         self.C_m0_31 = self.C_m0w_31 + self.C_m0ht + self.C_m0f
         self.C_ma_31 = self.C_maw_31 + self.C_maht + self.C_maf
-        alfatrim_31 = -self.C_m0_31/self.C_ma_31
         #   BD%
         self.C_m0_bd = self.C_m0w_bd + self.C_m0ht + self.C_m0f
         self.C_ma_bd = self.C_maw_bd + self.C_maht + self.C_maf
